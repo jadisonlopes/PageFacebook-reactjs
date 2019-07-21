@@ -1,10 +1,117 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+}
+
 body {
-  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
 }
 
 header {
   background: #4a90e2;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  color: #fff;
+  width: 90%;
+  font-size: 14px;
+}
+
+nav img {
+  height: 25px;
+}
+
+header nav div {
+  display: flex;
+  align-items: center;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.postUser {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  min-width: 930px;
+  width: 930px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.user {
+  padding: 15px;
+  font-size: 14px;
+  display: flex;
+}
+
+.divider {
   width: 100%;
-  height: 10%;
-  align-content: initial;
+  height: 1px;
+  background: #eeeeee;
+}
+
+.userDetails {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.userDate {
+  font-size: 13px;
+  color: #eeeeee;
+}
+
+.userImage {
+  min-height: 40px;
+  min-width: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 30%;
+}
+
+.userContent {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.post-comments {
+  padding: 15px;
+}
+
+.comment {
+  margin-top: 20px;
+  display: flex;
+}
+
+.comment p {
+  border-radius: 20px;
+  background: #eeeeee;
+  margin-left: 10px;
+  padding: 15px;
+  font-size: 13px;
+}
+
+.comment span {
+  font-weight: bold;
+  margin-right: 6px;
 }
